@@ -1,0 +1,94 @@
+/************************** Home Page CSS *********************************/
+
+.image-link {
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+}
+
+.image-link a {
+    display: block;
+    text-decoration: none;
+}
+
+.image-link img {
+    width: 400px; /* Adjust the width to your desired size */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 221, 0.7); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    color: 61A3BA;
+}
+
+.image-link:hover img {
+    filter: blur(5px); /* Apply a blur effect when hovering over the image */
+}
+
+/****************************** Main Pages CSS ****************************/
+
+/* Style for the navigation menu */
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #63857D; /* Background color for the menu */
+    overflow: hidden;
+}
+
+ul.menu li {
+    float: left;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+ul.menu li a {
+    display: block;
+    color: #FFFFDD; /* Text color for menu items */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+}
+
+ul.menu li a:hover {
+    background-color: #3B4F4B; /* Background color for menu items on hover */
+}
+
+/* Style for the lists */
+
+ul.list {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+ul.list li {
+    margin: 10px 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* Style for the checkboxes */
+input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+/* Style for the "Completed" count box */
+.completed-count {
+    background-color: #A2C579;
+    color: #FFFFDD;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: 'Dosis', sans-serif;
+}
